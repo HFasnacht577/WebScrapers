@@ -2,7 +2,7 @@ name: Web Scraper
 
 on:
   schedule:
-    - cron: '15 22 * * *'  # Runs at 8:55 PM UTC every day (4:55 PM EST)
+    - cron: '00 17 * * *'  # Runs at 8:55 PM UTC every day (4:55 PM EST)
 
 jobs:
   build:
