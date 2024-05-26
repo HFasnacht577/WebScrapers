@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: load API
+      env: 
+         secret_key: ${{ secrets.PUSHBULLET_API }}
+
     - name: Checkout repository
       uses: actions/checkout@v2
 
