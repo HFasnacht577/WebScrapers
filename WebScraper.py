@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib,ssl,pushbullet,os
 
-pb = pushbullet.PushBullet(os.environ.get('SECRET_KEY')
+pb = pushbullet.PushBullet(os.environ.get('SECRET_KEY'))
 try:
     r = requests.get('https://www.playstation.com/en-us/games/hades/')
 except:
