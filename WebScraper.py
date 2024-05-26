@@ -7,7 +7,7 @@ try:
     r = requests.get('https://www.playstation.com/en-us/games/hades/')
 except:
     pb.push_note('Action Error','Unable to access game listing')
-    return
+    quit()
 
 soup = BeautifulSoup(r.content,'html.parser')
 try:
@@ -15,12 +15,12 @@ try:
     s_clean = float(s.strip('$'))
 except:
     pb.push_note('Action Error','Error retrieving and processing price data')
-    return
+    quit()
 
 try:
     if s_clean == 24.99:
         pb.push_note('Sale Detected','Sale on Hades detected: ' + s)
-        return
+        quit()
 except:
     pb.push_note('Action Error','Error with sale detection submission.')
-    return
+    quit()
