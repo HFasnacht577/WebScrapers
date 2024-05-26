@@ -2,7 +2,7 @@ name: Run Python Script Daily
 
 on:
   schedule:
-    - cron: '55 20 * * *'  # Runs at 8:55 PM UTC every day (4:55 PM EST)
+    - cron: '32 21 * * *'  # Runs at 8:55 PM UTC every day (4:55 PM EST)
 
 jobs:
   build:
