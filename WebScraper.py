@@ -18,7 +18,7 @@ except:
     quit()
 
 try:
-    if s_clean == 24.99:
+    if s_clean < 24.99:
         pb.push_note('Sale Detected','Sale on Hades detected: ' + s)
         quit()
 except:
