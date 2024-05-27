@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import smtplib,ssl,pushbullet,os,datetime
 
 with open('runlog.txt','a') as f:
-    current_time = str(datetime.now())
+    current_time = str(datetime.datetime.now())
 
     pb = pushbullet.PushBullet(os.environ.get('SECRET_KEY'))
 
