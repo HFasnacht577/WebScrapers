@@ -16,7 +16,7 @@ with open('runlog.txt','a') as f:
 
     try:
         #Get website data
-        r = requests.get('https://www.playstation.com/en-us/games/hades/')
+        r_ = requests.get('https://www.playstation.com/en-us/games/hades/')
 
         #Initialize soup
         soup = BeautifulSoup(r.content,'html.parser')
