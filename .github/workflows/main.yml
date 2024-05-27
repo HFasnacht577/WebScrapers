@@ -1,6 +1,7 @@
 name: Web Scraper
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '00 17 * * *'  # Runs at 8:55 PM UTC every day (4:55 PM EST)
 
