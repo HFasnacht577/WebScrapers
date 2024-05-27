@@ -28,3 +28,13 @@ jobs:
       env:
         SECRET_KEY: ${{ secrets.PUSHBULLET_API }}
       run: python WebScraper.py
+
+    - name: Commit runlog.txt
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add runlog.txt
+        git commit -m 'Update runlog.txt'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
