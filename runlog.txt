@@ -24,3 +24,4 @@ Run Successful: 2024-06-16 17:16:03.228466 Price: $24.99
 Run Successful: 2024-06-17 17:18:03.976986 Price: $24.99
 Run Successful: 2024-06-18 17:20:14.342670 Price: $24.99
 Run Successful: 2024-06-19 17:19:17.298943 Price: $24.99
+Run Successful: 2024-06-20 17:16:40.103283 Price: $12.49
