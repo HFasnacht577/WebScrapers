@@ -34,3 +34,4 @@ Run Successful: 2024-06-26 17:17:16.271036 Price: $12.49
 Run Failed: 2024-06-27 17:19:05.721489 Error: 'NoneType' object has no attribute 'get_text'
 Run Failed: 2024-06-28 17:18:06.895924 Error: 'NoneType' object has no attribute 'get_text'
 Run Failed: 2024-06-29 17:16:20.164469 Error: 'NoneType' object has no attribute 'get_text'
+Run Failed: 2024-06-30 17:16:49.098487 Error: 'NoneType' object has no attribute 'get_text'
