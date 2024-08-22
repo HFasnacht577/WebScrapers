@@ -79,3 +79,12 @@ Run Successful: 2024-08-10 17:15:55.260115 Price: $12.49
 Run Successful: 2024-08-11 17:17:11.190765 Price: $12.49
 Run Successful: 2024-08-12 17:17:45.008710 Price: $12.49
 Run Successful: 2024-08-13 17:18:41.699906 Price: $12.49
+Run Successful: 2024-08-14 17:17:31.368266 Price: $12.49
+Run Successful: 2024-08-15 17:17:44.023446 Price: $12.49
+Run Successful: 2024-08-16 17:17:51.040163 Price: $24.99
+Run Successful: 2024-08-17 17:16:13.795905 Price: $24.99
+Run Successful: 2024-08-18 17:16:15.771644 Price: $24.99
+Run Successful: 2024-08-19 17:19:14.706559 Price: $24.99
+Run Successful: 2024-08-20 17:18:27.323390 Price: $24.99
+Run Successful: 2024-08-21 17:18:05.252963 Price: $24.99
+Run Successful: 2024-08-22 17:18:49.097903 Price: $24.99
